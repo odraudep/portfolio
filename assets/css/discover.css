@@ -1,0 +1,31 @@
+/***********HEADER***********/
+header {
+    background: #000606 url(../images/discover-vision.png) no-repeat right bottom;
+}
+
+/***********HEADER-CONTENT***********/
+.header-content-discover {
+    left: 160px;
+    bottom: 100px;
+}
+
+.header-content h2, #phrase {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.header-content h2 {
+    margin: 50px 0 10px;
+    color: #ddd;
+}
+
+.header-content p {
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #f0f0f0;
+}
+
+.header-content q {
+    font-size: 35px;
+    color: #E8CC3A;
+}

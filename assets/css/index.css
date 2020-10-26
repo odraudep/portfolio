@@ -1,17 +1,13 @@
 /***********HEADER***********/
 header {
-    position: relative;
-    height: 100vh;
-    background: #000606 url(../images/woman-bg.png) no-repeat left bottom;
+    background: #000606 url(../images/index-woman.png) no-repeat left bottom;
     background-size: contain;
 }
 
 /***********HEADER-CONTENT***********/
-.header-content {
-    position: absolute;
+.header-content-index {
     right: 168px;
     bottom: 150px;
-    text-align: center;
 }
 
 .header-content h2 {
@@ -24,17 +20,4 @@ header {
 .header-content p {
     margin-bottom: 10px;
     color: #ddd;
-}
-
-.header-button {
-    cursor: pointer;
-    width: 245px;
-    height: 70px;
-    margin: 40px auto 0;
-    background-color: #074444;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
 }

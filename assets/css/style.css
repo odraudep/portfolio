@@ -10,6 +10,29 @@
     color: #f5f5f5;
 }
 
+header {
+    position: relative;
+    height: 100vh;
+}
+
+.header-content {
+    position: absolute;
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    width: 245px;
+    height: 70px;
+    margin: 40px auto 0;
+    background-color: #074444;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
 /***********HEADER-NAV***********/
 .header-nav {
     height: 100px;
