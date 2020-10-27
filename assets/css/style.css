@@ -75,3 +75,9 @@ header {
     cursor: pointer;
     transform: translateY(6px);
 }
+
+@media (max-width: 1097px) {
+    * {
+        display: none;
+    }
+}
