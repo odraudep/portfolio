@@ -1,0 +1,65 @@
+* {
+    color: #000606;
+}
+
+/***********HEADER-NAV***********/
+header {
+    height: 100px;
+}
+
+.header-nav {
+    width: 100%;
+    position: fixed;
+    background-color: #000606;
+}
+
+/***********SECTION***********/
+section h1 {
+    text-align: center;
+    margin-top: 65px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.section-message {
+    display: block;
+    width: 45%;
+    margin: auto;
+    position: relative;
+}
+
+#txtmessage {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: #c4c4c450;
+    font-size: 20px;
+}
+
+#txtmessage:focus {
+    outline: 1px solid #51E8E8;
+}
+
+/***********CHECKBOX***********/
+.contact-checkbox {
+    position: absolute;
+    right: 0;
+    transform: translateY(25px);
+    display: flex;
+}
+
+.contact-checkbox input, .contact-checkbox label {
+    cursor: pointer;
+}
+
+.contact-checkbox label {
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+.button {
+    color: #f5f5f5;
+}
