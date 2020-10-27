@@ -20,6 +20,10 @@ header {
     text-align: center;
 }
 
+.center {
+    margin: auto;
+}
+
 .button {
     cursor: pointer;
     width: 245px;
